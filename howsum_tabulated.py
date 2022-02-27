@@ -8,6 +8,6 @@ def howsum_tabulated(targetsum,arr):
                     temp=new_arr[i].copy()
                     temp.append(j)
                     new_arr[i+j]=temp
-                print(new_arr)
+    return new_arr[-1]
 
-howsum_tabulated(8,[1,2,3])
+print(howsum_tabulated(8,[1,2,3]))
