@@ -7,7 +7,6 @@ def cansum_tabulated(targetsum,arr):
                 if i+j<=targetsum:
                     new_arr[i+j]=True
                 
-                print(i,new_arr)
     return new_arr[-1]
 
 
