@@ -11,6 +11,6 @@ def bestsum_tabulated(targetsum,arr):
                         new_arr[i+j]=temp
                     elif len(temp)<len(new_arr[i+j]):
                         new_arr[i+j]=temp
-                print(new_arr)
+    return new_arr[-1]
 
-bestsum_tabulated(8,[1,2,4])
+print(bestsum_tabulated(8,[1,2,4]))
